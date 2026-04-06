@@ -1,0 +1,143 @@
+.chat-bg {
+  background: #ffffff;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* HEADER */
+.chat-header {
+  height: 70px;
+}
+
+.underline {
+  width: 25px;
+  height: 3px;
+  background: #7b61ff;
+  border-radius: 2px;
+}
+
+/* SEARCH */
+.search-pill {
+  background: #f1f1f1;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* TOP CARDS */
+.top-card {
+  min-width: 85px;
+  text-align: center;
+}
+
+.top-card img {
+  width: 60px;
+}
+
+.top-card p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.orange {
+  background: #ffe6d5;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.purple {
+  background: #e6e0ff;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.bordered {
+  position: relative;
+}
+
+.inner-box {
+  width: 65px;
+  height: 65px;
+  background: #777;
+  border-radius: 15px;
+  border: 3px solid transparent;
+}
+
+.bordered {
+  border-radius: 15px;
+  padding: 5px;
+  border: 2px solid;
+  border-image: linear-gradient(45deg, #00c6ff, #8e2de2) 1;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: 5px;
+  background: #ff4d6d;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 10px;
+}
+
+/* USERS */
+.gradient-ring {
+  padding: 3px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #20a4f3, #8a2be2);
+}
+
+.gradient-ring img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+/* CHAT */
+.chat-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.chat-img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.chat-badge {
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  background: #ff4d6d;
+  color: white;
+  font-size: 11px;
+  border-radius: 50px;   /* FULL ROUND */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+/* UTIL */
+.text-purple {
+  color: #7b61ff;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.inner-box {
+  width: 65px;
+  height: 65px;
+  background: #777;
+  border-radius: 15px;
+  display: flex;              /* ADD */
+  align-items: center;        /* ADD */
+  justify-content: center;    /* ADD */
+  color: white;               /* ADD */
+}

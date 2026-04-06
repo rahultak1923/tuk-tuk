@@ -1,0 +1,138 @@
+.profile-bg {
+  background: #edeaff;
+  min-height: 100vh;
+}
+
+/* HEADER BG */
+.header-bg {
+  height: 140px;
+  background: url("https://cdn-icons-png.flaticon.com/512/4712/4712027.png")
+    center/contain no-repeat;
+  opacity: 0.15;   /* thoda halka karo */
+  position: relative;
+  z-index: 0;
+}
+
+/* CARD */
+.card-box {
+  background: white;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 18px;
+}
+
+/* HEADER */
+.header-card {
+  margin-top: -40px;   /* thoda aur upar */
+  position: relative;
+  z-index: 2;
+}
+
+/* DP FIXED */
+.dp {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+/* SMALL DP */
+.mini-dp {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* AGE */
+.age {
+  background: #7b61ff;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+/* BADGE */
+.badge-box {
+  background: #ffe6c7;
+  padding: 2px 6px;
+  border-radius: 10px;
+  font-size: 11px;
+}
+
+/* VERIFY */
+.verify-btn {
+  background: #7b61ff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+/* LOVE */
+.love-zone {
+  color: #ff4d6d;
+  font-size: 12px;
+}
+
+/* MENU */
+.menu-icon {
+  font-size: 22px;
+  color: #7b61ff;
+}
+
+/* TABS */
+.tab {
+  padding: 5px;
+  color: gray;
+}
+
+.tab.active {
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid #7b61ff;
+}
+
+/* MOMENT */
+.moment-card {
+  background: #fff;
+}
+
+/* PILLS */
+.pill {
+  background: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+/* BOTTOM BAR */
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  background: white;
+  border-top: 1px solid #eee;
+}
+
+/* SCROLL ENABLE (no UI change) */
+.menu-scroll {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.menu-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Pages ko horizontal karo */
+.menu-wrapper {
+  display: flex;
+}
+
+/* Har page full width le */
+.menu-page {
+  min-width: 100%;
+}

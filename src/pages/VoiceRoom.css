@@ -1,0 +1,138 @@
+.room-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, rgba(10, 25, 49, 0.8), rgba(22, 27, 34, 0.9)), 
+              url('https://images.unsplash.com/photo-1506318137071-a8e063b4bcc0?w=1080');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Header UI */
+.room-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  align-items: center;
+}
+.admin-info {
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+.admin-dp { width: 30px; height: 30px; border-radius: 50%; border: 1.5px solid gold; }
+.admin-meta { margin-left: 8px; }
+.admin-meta h6 { font-size: 11px; margin: 0; }
+.admin-meta span { font-size: 9px; opacity: 0.8; }
+.header-actions { display: flex; gap: 15px; }
+
+.trophy-row {
+  margin: 10px 15px;
+  font-size: 14px;
+  color: gold;
+}
+
+/* Host Section Fix */
+.host-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+}
+.host-box { text-align: center; }
+.host-img { width: 85px; height: 85px; border-radius: 50%; border: 2px solid rgba(255,255,255,0.3); }
+.host-label { font-size: 12px; margin-top: 8px; font-weight: 500; }
+
+.jar-container {
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+.jar-img { width: 50px; filter: drop-shadow(0 0 10px purple); }
+
+/* Seats (Original Style) */
+.seats-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 30px 15px;
+}
+.seat-box { display: flex; flex-direction: column; align-items: center; }
+.seat-icon-bg {
+  width: 55px; height: 55px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seat-no { font-size: 11px; margin-top: 5px; color: #ddd; }
+
+/* Chat Area */
+.live-chat-area {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.chat-line { font-size: 13px; margin-bottom: 6px; text-shadow: 1px 1px 2px black; }
+
+/* Footer & Input */
+.room-bottom-bar {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  gap: 10px;
+  background: transparent;
+}
+.bottom-left, .bottom-right { display: flex; align-items: center; gap: 12px; }
+.circle-mic { background: rgba(255,255,255,0.2); padding: 8px; border-radius: 50%; }
+
+.bottom-input-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.input-field-box {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+}
+.input-field-box input {
+  background: transparent; border: none; color: white; flex: 1; font-size: 13px;
+}
+.input-field-box input:focus { outline: none; }
+
+/* Send Button Always Visible Style */
+.always-visible-send {
+  background: #7b61ff;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.gift-btn { background: #e94f6e; padding: 6px; border-radius: 50%; display: flex; }

@@ -1,0 +1,85 @@
+body {
+  background: #f3f1ff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(180deg, #b9b4ff, #dcd8ff);
+  height: 210px;
+  padding: 16px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+/* PROFILE */
+.profile-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 16px;
+  margin-top: -70px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* CARD */
+.card-box {
+  background: #fff;
+  border-radius: 18px;
+  padding: 16px;
+}
+
+/* MENU */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 14px;
+}
+
+.menu-item {
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu-icon {
+  height: 56px;
+  width: 56px;
+  background: linear-gradient(145deg,#f2f0ff,#e7e3ff);
+  border-radius: 16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:22px;
+  margin:auto;
+}
+
+/* TAB */
+.tab {
+  flex:1;
+  text-align:center;
+  color:#999;
+  padding-bottom:6px;
+  cursor:pointer;
+}
+
+.tab.active {
+  color:#000;
+  border-bottom:3px solid #7b61ff;
+  font-weight:600;
+}
+
+/* VERIFY */
+.verify-btn {
+  background: linear-gradient(90deg,#7b61ff,#b26bff);
+  color:white;
+  border-radius:20px;
+  padding:5px 12px;
+  font-size:12px;
+}
+
+/* BADGE */
+.badge-soft {
+  background:#f1efff;
+  border-radius:10px;
+  padding:3px 8px;
+  font-size:11px;
+}
